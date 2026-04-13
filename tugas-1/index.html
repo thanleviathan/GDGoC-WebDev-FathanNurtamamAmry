@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrath of Olympus Team Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+    <header>
+        <h1>Wrath of Olympus Team Registration</h1>
+    </header>
+
+    <main>
+        <section class="description">
+            <h2>Event Description</h2>
+            <p>
+                Welcome to the Wrath of Olympus Team registration page! Join our elite crew of fishers to complete layers, help people hunt and fight the exotics (and maybe the devil). Please ensure your details are accurate before submitting.
+            </p>
+
+            <h2>Rods and Totems</h2>
+            <p>
+                For Disturber, it is recommended to use rods with high progress speed and high disturbance stat while enchanted with ferocious and vicious. (e.g.: Plaguereaver)
+                </p>
+                <p>For Totems, this include:</p>
+                <ul>
+                <li>Aurora</li>
+                <li>Eclipse (for Sunshot)</li>
+                <li>Poseidon's Wrath (for Tridentfish)</li>
+                <li>Zeus' Storm (for Charged Water)</li>
+                <li>Starfall (optional, for progress speed boost)</li>
+                </ul>
+                <p>If you dont have one of them, its okay, you can just buy them anytime when needed.
+            </p>
+
+            <h2>Hunting</h2>
+            <p>
+                Because most of hunt fishes are single-hook only, At first time everyone can join the hunt, but the person who caught the hunt fish should not join the next same hunt. For Olympian Godbreaker, one person must catch the Olympian Devil in order to reveal the portal. (Requires full olympus bestiary and 50M C$)
+            </p>
+
+            <h2>Discord Link</h2>
+            <p>
+                Link to Discord: (...discord..)
+            </p>
+        </section>
+
+        <section class="registration-area">
+            <div class="form-card">
+                <h3>Registration Form</h3>
+                <form id="huntingForm">
+                    <div class="input-group">
+                        <label for="robloxUser">Roblox Username</label>
+                        <input type="text" id="robloxUser" placeholder="Enter username" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="discordUser">Discord Username (Optional)</label>
+                        <input type="text" id="discordUser" placeholder="Username#0000">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="role">Select Role</label>
+                        <select id="role">
+                            <option value="Disturber">Disturber</option>
+                            <option value="Guider">Guider</option>
+                            <option value="Totem Popper">Totem Popper</option>
+                            <option value="Regular Fisher">Regular Fisher</option>
+                        </select>
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="rodtotem">
+                        <label for="rodtotem">I have the rods or the totems recommended</label>
+                    </div>
+
+                    <button type="submit" id="btnSubmit">Register</button>
+                </form>
+            </div>
+
+            <div class="list-card">
+                <h3>Registered Participants</h3>
+                <div class="table-wrapper">
+                    <table id="participantTable">
+                        <thead>
+                            <tr>
+                                <th>Roblox</th>
+                                <th>Role</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Olympian Devil Hunting. made by thanleviathan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+  
+</html>
